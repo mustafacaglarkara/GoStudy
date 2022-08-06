@@ -41,7 +41,11 @@ func main() {
 	r := rect{width: 3, height: 4}
 	c := circle{radius: 5}
 
-	measure(r)
-	measure(c)
+	var deneme geometry = r
+	var ikinci geometry = c
+	fmt.Println(deneme.area())
+	fmt.Println(ikinci.perim())
+	//measure(r)
+	//measure(c)
 
 }
