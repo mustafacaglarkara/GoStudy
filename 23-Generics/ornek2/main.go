@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func Yazdir[T any](Deger T) {
 	fmt.Println(Deger)
